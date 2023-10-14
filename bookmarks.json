@@ -1,0 +1,16 @@
+[
+    {
+        "Services": [
+            { "name": "Infomaniak", "url": "https://manager.infomaniak.com/", "furl": "https://infomaniak.com/" },
+            { "name": "Cloudflare", "url": "https://dash.cloudflare.com/" }
+        ],
+        "Tools": [
+            { "name": "MCTitles", "url": "https://mctitles.com/" }
+        ]
+    },
+    {
+        "Docs": [
+            { "name": "DevDocs", "url": "https://devdocs.io/" }
+        ]
+    }
+]
