@@ -1,11 +1,20 @@
 [
     {
         "Services": [
+            { "name": "OVH", "url": "https://www.ovh.com/manager/" },
             { "name": "Infomaniak", "url": "https://manager.infomaniak.com/", "furl": "https://infomaniak.com/" },
             { "name": "Cloudflare", "url": "https://dash.cloudflare.com/" }
         ],
         "Tools": [
             { "name": "MCTitles", "url": "https://mctitles.com/" }
+        ]
+    },
+    {
+        "Unavailable": [
+            { "name": "Mail", "url": "https://mail.unavailable.fr", "icon": "https://mail.unavailable.fr/favicons/mail/favicon-16x16.png" },
+            { "name": "kDrive", "url": "https://kdrive.unavailable.fr", "icon": "https://assets.kdrive.infomaniak.com/7939274ab9feaf2c1f5e86d378d215d8c6389a96/assets/favicon/favicon-16x16.png" },
+            { "name": "Calendar", "url": "https://calendar.unavailable.fr", "icon": "https://calendar.unavailable.fr/favicons/calendar/favicon-16x16.png" },
+            { "name": "Contacts", "url": "https://contacts.unavailable.fr", "icon": "https://contacts.unavailable.fr/favicons/contact/favicon-16x16.png" }
         ]
     },
     {
