@@ -6,6 +6,7 @@
             { "name": "Cloudflare", "url": "https://dash.cloudflare.com/" }
         ],
         "Tools": [
+            { "name": "IT Tools", "url": "https://it-tools.tech/" },
             { "name": "MCTitles", "url": "https://mctitles.com/" }
         ]
     },
@@ -18,8 +19,31 @@
         ]
     },
     {
+        "For Dev": [
+            { "name": "GitHub", "url": "https://github.com/" },
+            { "name": "CodePen", "url": "https://codepen.io/" }
+        ]
+    },
+    {
         "Docs": [
             { "name": "DevDocs", "url": "https://devdocs.io/" }
+        ]
+    },
+    {
+        "HomeLab": [
+            { "name": "Status", "url": "https://status.nordhome.info/", "svg": "cachet" },
+            { "name": "Uptime", "url": "https://uptime.nordhome.info/", "svg": "uptimekuma" },
+            { "name": "Forgejo", "url": "https://git.nordhome.info/", "svg": "forgejo" },
+            { "name": "Grafana", "url": "https://grafana.nordhome.info/", "svg": "grafana" },
+            { "name": "Zabbix", "url": "https://zabbix.nordhome.info/", "furl": "https://www.zabbix.com/" },
+            { "name": "Home Assistant", "url": "https://ha.nordhome.info/", "svg": "homeassistant" },
+            { "name": "Portainer", "url": "https://portainer.nordhome.info/", "svg": "portainer" },
+            { "name": "Proxmox", "url": "https://pve.nordhome.info/", "svg": "proxmox" },
+            { "name": "UnStorage", "url": "https://unstorage.nordhome.info/", "svg": "synology" },
+            { "name": "UnDrive", "url": "https://undrive.nordhome.info", "svg": "westerndigital" },
+            { "name": "UnRaid", "url": "https://zpm.nordhome.info/", "svg": "unraid" },
+            { "name": "T4", "url": "https://t4.nordhome.info/", "svg": "minio" },
+            { "name": "Firefox Sync", "url": "https://ffsync.nordhome.info/", "svg": "firefox" }
         ]
     }
 ]

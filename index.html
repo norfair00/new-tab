@@ -128,10 +128,13 @@
                                 const link_i = document.createElement("img")
                                 const link_a = document.createElement("a")
                                 
-                                const url = new URL(link.furl || link.url)
-                                console.log(url)
 
-                                link_i.src = link.icon || `https://sexual-gray-swallow.faviconkit.com/${url.hostname}/16`
+                                if (link.svg) {
+                                    link_i.src = `https://cdn.simpleicons.org/${link.svg}`
+                                } else {
+                                    const url = new URL(link.furl || link.url)
+                                    link_i.src = link.icon || `https://sexual-gray-swallow.faviconkit.com/${url.hostname}/16`
+                                }
                                 
                                 link_a.href = link.url
                                 link_a.textContent = link.name
