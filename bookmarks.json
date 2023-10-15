@@ -1,13 +1,38 @@
 [
     {
+        "Social Network": [
+            { "name": "Twitter", "url": "https://twitter.com/" },
+            { "name": "Facebook", "url": "https://facebook.com/" },
+            { "name": "Instagram", "url": "https://instagram.com/" }
+        ],
+        "Streaming": [
+            { "name": "Netflix", "url": "https://www.netflix.com/" },
+            { "name": "Disney+", "url": "https://www.disneyplus.com/" },
+            { "name": "Paramount+", "url": "https://www.paramountplus.com/" },
+            { "name": "Prime Video", "url": "https://www.primevideo.com/" }
+        ],
+        "For Dev": [
+            { "name": "GitHub", "url": "https://github.com/" },
+            { "name": "CodePen", "url": "https://codepen.io/" }
+        ]
+    },
+    {
+        "Shopping": [
+            { "name": "Amazon", "url": "https://www.amazon.fr/" }
+        ],
         "Services": [
             { "name": "OVH", "url": "https://www.ovh.com/manager/" },
             { "name": "Infomaniak", "url": "https://manager.infomaniak.com/", "furl": "https://infomaniak.com/" },
             { "name": "Cloudflare", "url": "https://dash.cloudflare.com/" }
-        ],
+        ]
+    },
+    {
         "Tools": [
             { "name": "IT Tools", "url": "https://it-tools.tech/" },
             { "name": "MCTitles", "url": "https://mctitles.com/" }
+        ],
+        "Docs": [
+            { "name": "DevDocs", "url": "https://devdocs.io/" }
         ]
     },
     {
@@ -19,29 +44,26 @@
         ]
     },
     {
-        "For Dev": [
-            { "name": "GitHub", "url": "https://github.com/" },
-            { "name": "CodePen", "url": "https://codepen.io/" }
-        ]
-    },
-    {
-        "Docs": [
-            { "name": "DevDocs", "url": "https://devdocs.io/" }
-        ]
-    },
-    {
-        "HomeLab": [
+        "Monitoring": [
             { "name": "Status", "url": "https://status.nordhome.info/", "svg": "cachet" },
             { "name": "Uptime", "url": "https://uptime.nordhome.info/", "svg": "uptimekuma" },
-            { "name": "Forgejo", "url": "https://git.nordhome.info/", "svg": "forgejo" },
             { "name": "Grafana", "url": "https://grafana.nordhome.info/", "svg": "grafana" },
-            { "name": "Zabbix", "url": "https://zabbix.nordhome.info/", "furl": "https://www.zabbix.com/" },
-            { "name": "Home Assistant", "url": "https://ha.nordhome.info/", "svg": "homeassistant" },
+            { "name": "Zabbix", "url": "https://zabbix.nordhome.info/", "furl": "https://www.zabbix.com/" }
+        ],
+        "Manager": [
             { "name": "Portainer", "url": "https://portainer.nordhome.info/", "svg": "portainer" },
-            { "name": "Proxmox", "url": "https://pve.nordhome.info/", "svg": "proxmox" },
-            { "name": "UnStorage", "url": "https://unstorage.nordhome.info/", "svg": "synology" },
-            { "name": "UnDrive", "url": "https://undrive.nordhome.info", "svg": "westerndigital" },
-            { "name": "UnRaid", "url": "https://zpm.nordhome.info/", "svg": "unraid" },
+            { "name": "Proxmox", "url": "https://pve.nordhome.info/", "svg": "proxmox" }
+        ],
+        "Domotique": [
+            { "name": "Home Assistant", "url": "https://ha.nordhome.info/", "svg": "homeassistant" }
+        ],
+        "NAS": [
+            { "name": "UnStorage", "url": "https://unstorage.nordhome.info/", "svg": "westerndigital" },
+            { "name": "UnDrive", "url": "https://undrive.nordhome.info", "svg": "synology" },
+            { "name": "UnRaid", "url": "https://zpm.nordhome.info/", "svg": "unraid" }
+        ],
+        "Other": [
+            { "name": "Forgejo", "url": "https://git.nordhome.info/", "svg": "forgejo" },
             { "name": "T4", "url": "https://t4.nordhome.info/", "svg": "minio" },
             { "name": "Firefox Sync", "url": "https://ffsync.nordhome.info/", "svg": "firefox" }
         ]
