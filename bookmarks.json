@@ -20,6 +20,10 @@
         "Shopping": [
             { "name": "Amazon", "url": "https://www.amazon.fr/" }
         ],
+        "Pc Build & Part": [
+            { "name": "PC Part Picker", "url": "https://pcpartpicker.com/" },
+            { "name": "Pc Builds", "url": "https://pc-builds.com/" }
+        ],
         "Services": [
             { "name": "OVH", "url": "https://www.ovh.com/manager/" },
             { "name": "Infomaniak", "url": "https://manager.infomaniak.com/", "furl": "https://infomaniak.com/" },
